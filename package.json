@@ -1,0 +1,31 @@
+{
+  "name": "mcstats_bot",
+  "version": "1.0.0",
+  "description": "mcstats_bot is a Discord bot that fetches Minecraft server status. Partially written uisng GPT 4, mcstats_bot supports both Java and Bedrock servers, providing information about the server's online status, the number of active players, the server's version, and more.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skidaux/mcstatus.git"
+  },
+  "keywords": [
+    "discord-bot",
+    "minecraft",
+    "server-status",
+    "java",
+    "bedrock"
+  ],
+  "author": "Skidaux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Skidaux/mcstatus/issues"
+  },
+  "homepage": "https://github.com/Skidaux/mcstatus#readme",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^16.3.1",
+    "minecraft-server-util": "^5.4.4"
+  }
+}
